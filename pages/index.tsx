@@ -7,7 +7,8 @@ import portfolioData from '../data.json';
 import educations from '../educations.json';
 import Contact from '@/components/Contact';
 import SkillsDisplay from '@/components/Skills';
-
+import PortfolioBio from '@/components/Bio';
+import TextAnimation from '@/components/TextAnimation.jsx';
 const inter = Inter({ subsets: ['latin'] });
 
 interface Skill {

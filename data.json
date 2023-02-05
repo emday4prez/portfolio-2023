@@ -32,6 +32,9 @@
       "logoUrl": "Expert"
     },
     {
+      "name": "AWS"
+    },
+    {
       "name": "Stripe",
       "logoUrl": "Expert"
     },
@@ -51,10 +54,7 @@
       "name": "HTML",
       "logoUrl": "Expert"
     },
-    {
-      "name": "Git",
-      "logoUrl": "Expert"
-    },
+
     {
       "name": "TypeScript"
     },
@@ -66,6 +66,10 @@
     },
     {
       "name": "GraphQL"
+    },
+    {
+      "name": "Git",
+      "logoUrl": "Expert"
     }
   ],
   "projects": [

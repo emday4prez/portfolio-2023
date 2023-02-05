@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero: React.FC = () => {
   return (
-    <section className="text-white mt-12 lg:mt-24 lg:py-32 py-24 bg-gradient-to-b from-slate-800 to-slate-600 p-8 ">
+    <section className="text-white mt-12 lg:mt-24 lg:py-32 py-24 bg-gradient-to-b from-slate-800 to-slate-600 p-8 h-screen">
       <div className="container mx-auto px-4">
         <h1 className="text-4xl font-medium mb-4"> Welcome</h1>
         <p className="text-xl font-medium mb-8">
