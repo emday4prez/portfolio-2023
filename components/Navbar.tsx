@@ -5,7 +5,7 @@ const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="fixed w-full z-10 top-0 bg-gradient-to-b from-slate-900 to-slate-800">
+    <nav className="fixed w-full z-50 top-0 bg-gradient-to-b from-slate-900 to-slate-800">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between py-3">
           <Link href="/">
