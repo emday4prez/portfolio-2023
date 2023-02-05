@@ -1,0 +1,46 @@
+[
+  {
+    "type": "certificate",
+    "institution": "Massachusetts Institute of Technology",
+    "program": "Professional Coding - Full Stack Web Development",
+    "startDate": "March 2022",
+    "endDate": "February 2023"
+  },
+  {
+    "type": "certificate",
+    "institution": "Google",
+    "program": "UX Design Professional",
+    "startDate": "June 2021",
+    "endDate": "October 2021"
+  },
+  {
+    "type": "certificate",
+    "institution": "The Linux Foundation",
+    "program": "Node Applications Developer",
+    "startDate": "January 2022",
+    "endDate": "April 2022"
+  },
+  {
+    "type": "certificate",
+    "institution": "Codecademy",
+    "program": "Algorithms and Data Structures",
+    "startDate": "January 2022",
+    "endDate": "April 2022"
+  },
+
+  {
+    "type": "course",
+    "institution": "MongoDB University",
+    "program": "Cluster Administration",
+    "startDate": "August 2022",
+    "endDate": "August 2022"
+  },
+
+  {
+    "type": "degree",
+    "institution": "Penn State University",
+    "program": "Bachelor of Arts",
+    "startDate": "September 2003",
+    "endDate": "May 2007"
+  }
+]

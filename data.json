@@ -1,0 +1,103 @@
+{
+  "name": "Emerson Day",
+  "bio": "I'm a full-stack web developer with a passion for building beautiful, intuitive, and responsive websites. I'm currently looking for a full-time position as a web developer.",
+  "contact": {
+    "email": "emerson.day@gmail.com",
+    "location": "Los Angeles, CA",
+    "phone": "310-490-6576",
+    "image_url": "https://image.url",
+    "linkedin_url": "https://linkedin.com/in/emerson-day",
+    "github_url": "https://github.com/emdayprez"
+  },
+  "skills": [
+    {
+      "name": "JavaScript",
+      "logoUrl": ""
+    },
+    {
+      "name": "React",
+      "logoUrl": "Advanced"
+    },
+    {
+      "name": "Node.js",
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/590px-Node.js_logo.svg.png?20170401104355"
+    },
+
+    {
+      "name": "CSS",
+      "logoUrl": "Expert"
+    },
+    {
+      "name": "Docker",
+      "logoUrl": "Expert"
+    },
+    {
+      "name": "Stripe",
+      "logoUrl": "Expert"
+    },
+    {
+      "name": "Firestore",
+      "logoUrl": "Expert"
+    },
+    {
+      "name": "CMS",
+      "logoUrl": "Expert"
+    },
+    {
+      "name": "MongoDB",
+      "logoUrl": "Expert"
+    },
+    {
+      "name": "HTML",
+      "logoUrl": "Expert"
+    },
+    {
+      "name": "Git",
+      "logoUrl": "Expert"
+    },
+    {
+      "name": "TypeScript"
+    },
+    {
+      "name": "Express"
+    },
+    {
+      "name": "Tailwind"
+    },
+    {
+      "name": "GraphQL"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Order Food App",
+      "description": "A food ordering application built with React and Node.js.",
+      "url": "https://emerson-day-restaurants-app.vercel.app/",
+      "technologies": ["Next.js", "Strapi", "Stripe"]
+    },
+    {
+      "title": "Spotify Playlist Generator",
+      "description": "A Spotify playlist generator built with React and Firebase.",
+      "url": "https://smx-spotify-playlist-mak-34d66.web.app/",
+      "technologies": ["React", "Firebase", "Spotify API", "OAuth"]
+    },
+    {
+      "title": "HomeSmart",
+      "description": "A landing page for a smart home app built with HTML and Vite.",
+      "url": "https://smart-home-site-landing-page.netlify.app/",
+      "technologies": ["Tailwind", "JavaScript", "Vite", "HTML"]
+    },
+    {
+      "title": "TeleFrieden",
+      "description": "A telecommunications blog built with Gatsby and GraphQL.",
+      "url": "https://telefrieden.netlify.app",
+      "technologies": ["React", "GraphQL", "Blogger", "CSS"]
+    },
+    {
+      "title": "Frontend Bank",
+      "description": "Frontend to a banking application built with React and Bootstrap.",
+      "url": "http://emerson-day-bankingapp.s3-website-us-west-1.amazonaws.com/",
+      "technologies": ["React", "Bootstrap", "AWS"]
+    }
+  ]
+}
