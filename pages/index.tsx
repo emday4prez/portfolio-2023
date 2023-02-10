@@ -7,13 +7,10 @@ import portfolioData from '../data.json';
 import educations from '../educations.json';
 import Contact from '@/components/Contact';
 import SkillsDisplay from '@/components/Skills';
-import PortfolioBio from '@/components/Bio';
-import TextAnimation from '@/components/TextAnimation.jsx';
 const inter = Inter({ subsets: ['latin'] });
 
 interface Skill {
   name: string;
-  level: string;
 }
 
 interface Project {
@@ -54,6 +51,7 @@ export default function Home() {
       </Head>
 
       <Hero />
+
       <SkillsDisplay skills={skills} />
       <div className="bg-gradient-to-b from-slate-400 to-slate-100 p-10">
         {/* <h2 className="text-xl font-medium text-gray-900 mt-10">Skills</h2>

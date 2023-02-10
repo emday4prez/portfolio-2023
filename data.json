@@ -11,55 +11,53 @@
   },
   "skills": [
     {
-      "name": "JavaScript",
-      "logoUrl": ""
+      "name": "JavaScript"
     },
     {
-      "name": "React",
-      "logoUrl": "Advanced"
+      "name": "React"
     },
     {
-      "name": "Node.js",
-      "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/590px-Node.js_logo.svg.png?20170401104355"
+      "name": "Node.js"
     },
 
     {
-      "name": "CSS",
-      "logoUrl": "Expert"
+      "name": "CSS"
     },
     {
-      "name": "Docker",
-      "logoUrl": "Expert"
+      "name": "Docker"
     },
     {
       "name": "AWS"
     },
     {
-      "name": "Stripe",
-      "logoUrl": "Expert"
+      "name": "React Router"
     },
     {
-      "name": "Firestore",
-      "logoUrl": "Expert"
+      "name": "Stripe"
     },
     {
-      "name": "CMS",
-      "logoUrl": "Expert"
+      "name": "Firestore"
     },
     {
-      "name": "MongoDB",
-      "logoUrl": "Expert"
+      "name": "CMS"
     },
     {
-      "name": "HTML",
-      "logoUrl": "Expert"
+      "name": "MongoDB"
     },
-
+    {
+      "name": "HTML"
+    },
+    {
+      "name": "Next.js"
+    },
     {
       "name": "TypeScript"
     },
     {
       "name": "Express"
+    },
+    {
+      "name": "Remix"
     },
     {
       "name": "Tailwind"
@@ -68,21 +66,20 @@
       "name": "GraphQL"
     },
     {
-      "name": "Git",
-      "logoUrl": "Expert"
+      "name": "Git"
     }
   ],
   "projects": [
     {
       "title": "Order Food App",
-      "description": "A food ordering application built with React and Node.js.",
+      "description": "A food ordering application built with React, Strapi, Stripe, and PostgreSQL.",
       "url": "https://emerson-day-restaurants-app.vercel.app/",
       "technologies": ["Next.js", "Strapi", "Stripe"]
     },
     {
       "title": "Spotify Playlist Generator",
-      "description": "A Spotify playlist generator built with React and Firebase.",
-      "url": "https://smx-spotify-playlist-mak-34d66.web.app/",
+      "description": "A Spotify playlist generator built with React and OAuth.",
+      "url": "https://github.com/Scott-Coates-Org/solo-project-spotify-playlist-maker-emday4prez",
       "technologies": ["React", "Firebase", "Spotify API", "OAuth"]
     },
     {

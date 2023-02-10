@@ -2,7 +2,6 @@ import Image from 'next/image';
 
 interface Skill {
   name: string;
-  logoUrl: string;
 }
 
 interface Props {
@@ -19,8 +18,8 @@ const SkillsDisplay: React.FC<Props> = ({ skills }) => {
             key={skill.name}
             className="w-1/3 max-w-[144px] min-w-[90px] md:w-1/4 lg:w-1/5 xl:w-1/6 px-2 p-1"
           >
-            <div className="bg-slate-100 rounded-lg shadow-lg py-1 md:p-2">
-              <h3 className="text-sm md:text-xl font-medium  text-center">
+            <div className="bg-slate-100 dark:bg-slate-800 dark:hover:bg-slate-900 hover:bg-slate-300 transition-all cursor-default rounded-lg shadow hover:shadow-lg py-1 dark::hover:slate-900 md:p-2">
+              <h3 className="text-sm md:text-xl font-medium text-slate-800 dark:text-slate-200 text-center">
                 {skill.name}
               </h3>
             </div>

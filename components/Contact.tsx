@@ -12,17 +12,17 @@ interface Contact {
 const Contact: React.FC<{ contact: Contact }> = ({ contact }) => {
   return (
     <section className="dark:bg-slate-800 dark:text-white p-6 flex flex-col items-center justify-center rounded my-4">
-      <h2 className="text-xl font-medium dark:text-slate-100 text-gray-900 mt-2">
+      {/* <h2 className="text-xl font-medium dark:text-slate-100 text-gray-900 mt-2">
         Contact
-      </h2>
+      </h2> */}
       <p className="text-sm dark:text-slate-200 text-gray-600 mt-2">
-        Email: {contact.email}
+        {contact.email}
       </p>
       <p className="text-sm dark:text-slate-200 text-gray-600 mt-2">
-        Phone: {contact.phone}
+        {contact.phone}
       </p>
       <p className="text-sm dark:text-slate-200 text-gray-600 mt-2">
-        Location: {contact.location}
+        {contact.location}
       </p>
     </section>
   );
