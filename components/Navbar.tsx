@@ -29,12 +29,12 @@ const Navbar: React.FC = () => {
             isOpen ? 'block' : 'hidden'
           } lg:block lg:flex lg:items-center lg:justify-between p-4`}
         >
-          <Link href="/about">
+          <Link onClick={() => setIsOpen(!isOpen)} href="/about">
             <p className="text-sm text-gray-500 font-medium mr-6 hover:text-white">
               About Me
             </p>
           </Link>
-          <Link href="/contact">
+          <Link href="/contact" onClick={() => setIsOpen(!isOpen)}>
             <p className="text-sm text-gray-500 font-medium hover:text-white">
               Contact
             </p>

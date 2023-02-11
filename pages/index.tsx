@@ -6,7 +6,10 @@ import Education from '@/components/Education';
 import portfolioData from '../data.json';
 import educations from '../educations.json';
 import Contact from '@/components/Contact';
+import WordCloud from '@/components/WordCloud';
 import SkillsDisplay from '@/components/Skills';
+import ParallaxHeader from '@/components/ParallaxHeader';
+import ProjectList from '@/components/ProjectsList';
 const inter = Inter({ subsets: ['latin'] });
 
 interface Skill {
@@ -51,9 +54,10 @@ export default function Home() {
       </Head>
 
       <Hero />
-
-      <SkillsDisplay skills={skills} />
-      <div className="bg-gradient-to-b from-slate-400 to-slate-100 p-10">
+      <WordCloud />
+      <ProjectList projects={projects} />
+      {/* <SkillsDisplay skills={skills} /> */}
+      <div className="bg-gradient-to-b from-slate-500 to-slate-100 p-10">
         {/* <h2 className="text-xl font-medium text-gray-900 mt-10">Skills</h2>
         <ul className="mt-2">
           {skills.map((skill, index) => (
