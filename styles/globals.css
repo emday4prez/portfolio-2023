@@ -33,4 +33,9 @@ a {
   text-decoration: none;
 }
 
+@keyframes blinker {
+  50% {
+    opacity: 0.6666666;
+  }
+}
 
