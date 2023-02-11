@@ -55,17 +55,8 @@ export default function Home() {
 
       <Hero />
       <WordCloud />
-      <ProjectList projects={projects} />
-      {/* <SkillsDisplay skills={skills} /> */}
+
       <div className="bg-gradient-to-b from-slate-500 to-slate-100 p-10">
-        {/* <h2 className="text-xl font-medium text-gray-900 mt-10">Skills</h2>
-        <ul className="mt-2">
-          {skills.map((skill, index) => (
-            <li key={index} className="text-sm text-gray-600">
-              {skill.name}: {skill.level}
-            </li>
-          ))}
-        </ul> */}
         <h2 className="text-xl font-medium text-slate-900 mt-10">Projects</h2>
 
         <ul className="mt-2 -mx-4 grid md:grid-cols-2 lg:grid-cols-3">

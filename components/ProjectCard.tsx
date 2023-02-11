@@ -9,7 +9,7 @@ interface Project {
 
 const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
   return (
-    <div className="bg-white dark:bg-slate-800 dark:text-slate-100  shadow-md p-6 m-4 hover:shadow-[0_35px_60px_-15px_rgba(0,0,0,0.5)]">
+    <div className="bg-white dark:bg-slate-800 dark:text-slate-100 transition-shadow shadow-md p-6 m-4 hover:shadow-[0_35px_60px_-15px_rgba(0,0,0,0.5)]">
       <h3 className="text-lg font-medium">{project.title}</h3>
       <p className="text-sm mt-2">{project.description}</p>
       <a href={project.url} className="text-blue-500 mt-2">

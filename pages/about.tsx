@@ -1,6 +1,6 @@
 const AboutMe: React.FC = () => {
   return (
-    <div className="p-4 bg-slate-700 text-slate-100 mt-10 px-6 md:px-16 lg:px-18 bg-gradient-to-b from-slate-800 to-slate-700">
+    <div className="p-4 bg-slate-700 text-slate-100 mt-28 md:pt-24 px-16 pt-24 md:px-32 lg:px-48 bg-gradient-to-b from-slate-800 to-slate-700">
       <h1 className="text-2xl font-bold">About Me</h1>
       <p className="text-lg">
         I am a highly skilled and experienced web developer with a passion for

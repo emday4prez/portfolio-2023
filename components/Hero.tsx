@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const Hero: React.FC = () => {
@@ -15,12 +16,13 @@ const Hero: React.FC = () => {
           challenge me and help me further my knowledge and expertise in the
           field.
         </p>
-        <a
-          href="#"
+
+        <Link
+          href="/contact"
           className="bg-slate-800 hover:bg-slate-300 transition-colors hover:text-slate-900 text-white font-medium py-2 px-4 rounded-full"
         >
           Contact me
-        </a>
+        </Link>
       </div>
     </section>
   );

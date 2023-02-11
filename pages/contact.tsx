@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Link from 'next/link';
 const Contact: React.FC = () => {
   return (
     <div className="bg-slate-800 min-h-screen flex items-center justify-center">
@@ -9,19 +9,19 @@ const Contact: React.FC = () => {
           <p className="text-slate-800 font-bold mb-2">Social Media</p>
           <div className="flex items-center mb-6">
             <a
-              href="https://www.twitter.com/yourusername"
+              href="https://www.twitter.com/emers0n"
               className="text-slate-800 mr-3 hover:underline"
             >
               Twitter
             </a>
             <a
-              href="https://www.linkedin.com/in/yourusername"
+              href="https://www.linkedin.com/in/emerson-day"
               className="text-slate-800 mr-3 hover:underline"
             >
               LinkedIn
             </a>
             <a
-              href="https://www.github.com/yourusername"
+              href="https://www.github.com/emday4prez"
               className="text-slate-800 hover:underline"
             >
               GitHub
@@ -29,15 +29,15 @@ const Contact: React.FC = () => {
           </div>
           <p className="text-slate-800 font-bold mb-2">Email</p>
           <p className="text-slate-600 mb-6">
-            <a
-              href="mailto:your@email.com"
+            <Link
+              href="mailto:emerson.day@gmail.com"
               className="text-slate-600 hover:underline"
             >
-              your@email.com
-            </a>
+              emerson.day@gmail.com
+            </Link>
           </p>
           <p className="text-slate-800 font-bold mb-2">Phone</p>
-          <p className="text-slate-600">(123) 456-7890</p>
+          <p className="text-slate-600">(310) 490-6576</p>
         </div>
       </div>
     </div>

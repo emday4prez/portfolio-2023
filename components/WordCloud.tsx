@@ -11,7 +11,7 @@ const data = [
   { value: 'Tailwind', count: 21 },
   { value: 'GraphQL', count: 17 },
   { value: 'Docker', count: 19 },
-  { value: 'Stripe', count: 21 },
+  { value: 'Stripe', count: 26 },
   { value: 'TypeScript', count: 15 },
   { value: 'Firestore', count: 18 },
   { value: 'AWS', count: 11 },
@@ -23,7 +23,7 @@ const data = [
   { value: 'Digital Ocean', count: 10 },
   { value: 'CMS', count: 19 },
   { value: 'Webpack', count: 11 },
-  { value: 'OAuth', count: 25 },
+  { value: 'OAuth', count: 22 },
   { value: 'Accessibility', count: 10 },
   { value: 'SQL', count: 10 },
   { value: 'Jest', count: 17 },
@@ -52,6 +52,7 @@ const customRenderer = (tag, size, color) => (
 
 const SimpleCloud = () => (
   <div className="pb-20 px-0 md:px-20 bg-gradient-to-b text-center from-slate-600 to-slate-500 text-white">
+    <h2 className="text-6xl p-16">My Tools</h2>
     <TagCloud
       minSize={12}
       maxSize={55}

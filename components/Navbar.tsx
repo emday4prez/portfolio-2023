@@ -8,10 +8,11 @@ const Navbar: React.FC = () => {
     <nav className="fixed w-full z-50 top-0 bg-gradient-to-b from-slate-900 to-slate-800">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between py-3">
-          <Link href="/">
+          <Link href="/" onClick={() => setIsOpen(false)}>
             <p className="text-xl text-white font-medium">Emerson Day</p>
           </Link>
           <button
+            type="button"
             className="block lg:hidden text-gray-500 hover:text-white focus:text-white"
             onClick={() => setIsOpen(!isOpen)}
           >
