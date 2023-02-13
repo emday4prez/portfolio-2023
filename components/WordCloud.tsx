@@ -10,7 +10,7 @@ const data = [
   { value: 'CSS', count: 23 },
   { value: 'Tailwind', count: 21 },
   { value: 'GraphQL', count: 17 },
-  { value: 'Docker', count: 19 },
+  { value: 'Docker', count: 13 },
   { value: 'Stripe', count: 26 },
   { value: 'TypeScript', count: 15 },
   { value: 'Firestore', count: 18 },
@@ -23,7 +23,7 @@ const data = [
   { value: 'Digital Ocean', count: 10 },
   { value: 'CMS', count: 19 },
   { value: 'Webpack', count: 11 },
-  { value: 'OAuth', count: 22 },
+  { value: 'OAuth', count: 21 },
   { value: 'Accessibility', count: 10 },
   { value: 'SQL', count: 10 },
   { value: 'Jest', count: 17 },
@@ -51,8 +51,10 @@ const customRenderer = (tag, size, color) => (
 );
 
 const SimpleCloud = () => (
-  <div className="pb-20 px-0 md:px-20 bg-gradient-to-b text-center from-slate-600 to-slate-500 text-white">
-    <h2 className="text-6xl p-16">My Tools</h2>
+  <div className="pb-20 px-0 md:px-20 bg-gradient-to-b text-center from-slate-600 to-slate-500 text-slate-100">
+    <h2 className="text-6xl p-16 shrinking-growing-text h-40 tracking-widest mb-16 md:mb-1">
+      My Toolbox
+    </h2>
     <TagCloud
       minSize={12}
       maxSize={55}

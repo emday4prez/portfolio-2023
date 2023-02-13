@@ -72,9 +72,9 @@
   "projects": [
     {
       "title": "Order Food App",
-      "description": "A food ordering application built with React, Strapi, Stripe, and PostgreSQL.",
+      "description": "A full stack web application for ordering food. Built with Next.js",
       "url": "https://emerson-day-restaurants-app.vercel.app/",
-      "technologies": ["Next.js", "Strapi", "Stripe"]
+      "technologies": ["React", "Strapi", "Stripe"]
     },
     {
       "title": "Spotify Playlist Generator",

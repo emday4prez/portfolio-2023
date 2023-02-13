@@ -26,7 +26,10 @@ body {
   overflow-x: hidden;
 }
 
-
+.shrinking-growing-text {
+  animation: size 2s ease-in-out infinite;
+  text-shadow: 0 0 10px #fff;
+}
 
 a {
   color: inherit;
@@ -38,4 +41,16 @@ a {
     opacity: 0.6666666;
   }
 }
+@keyframes size {
+  0% {
+    font-size: 4rem;
+  }
 
+  50% {
+    font-size: 3.95rem;
+  }
+
+  100% {
+    font-size: 4rem;
+  }
+}
