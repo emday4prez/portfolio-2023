@@ -40,8 +40,8 @@ const customRenderer = (tag, size, color) => (
       animationDelay: `${Math.random() * 2}s`,
       fontSize: `${size / 12}em`,
       border: `1px solid ${color}`,
-      margin: '2px',
-      padding: '2px',
+      margin: '1px',
+      padding: '1px',
       display: 'inline-block',
       color: 'white',
     }}
@@ -51,8 +51,8 @@ const customRenderer = (tag, size, color) => (
 );
 
 const SimpleCloud = () => (
-  <div className="pb-20 px-0 md:px-20 bg-gradient-to-b  text-center from-slate-600 to-slate-500 text-slate-100">
-    <h2 className="text-6xl p-16 shrinking-growing-text h-40 tracking-widest mb-16 md:mb-1">
+  <div className=" bg-gradient-to-b  text-center from-slate-600 to-slate-500 text-slate-100">
+    <h2 className="text-3xl md:text-6xl md:p-16 h-40 tracking-widest mb-0 md:mb-1">
       My Toolbox
     </h2>
     <TagCloud
