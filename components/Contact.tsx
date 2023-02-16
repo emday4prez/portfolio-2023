@@ -24,6 +24,9 @@ const Contact: React.FC<{ contact: Contact }> = ({ contact }) => {
       <p className="text-sm dark:text-slate-200 text-gray-600 mt-2">
         {contact.location}
       </p>
+      <p className="text-sm dark:text-slate-200 text-gray-600 mt-2">
+        open to relocation
+      </p>
     </section>
   );
 };
