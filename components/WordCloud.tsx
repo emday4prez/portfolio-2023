@@ -4,7 +4,7 @@ const data = [
   { value: 'JavaScript', count: 27 },
   { value: 'React', count: 35 },
   { value: 'Node', count: 33 },
-  { value: 'Express', count: 17 },
+  { value: 'Express', count: 22 },
   { value: 'HTML5', count: 16 },
   { value: 'MongoDB', count: 20 },
   { value: 'CSS', count: 23 },
@@ -51,13 +51,13 @@ const customRenderer = (tag, size, color) => (
 );
 
 const SimpleCloud = () => (
-  <div className="pb-20 px-0 md:px-20 bg-gradient-to-b text-center from-slate-600 to-slate-500 text-slate-100">
+  <div className="pb-20 px-0 md:px-20 bg-gradient-to-b  text-center from-slate-600 to-slate-500 text-slate-100">
     <h2 className="text-6xl p-16 shrinking-growing-text h-40 tracking-widest mb-16 md:mb-1">
       My Toolbox
     </h2>
     <TagCloud
       minSize={12}
-      maxSize={55}
+      maxSize={45}
       tags={data}
       renderer={customRenderer}
       randomSeed={22}

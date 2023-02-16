@@ -16,11 +16,10 @@ const AboutMe: React.FC = () => {
         meet and exceed expectations.
       </p>
       <p className="text-lg py-2">
-        In addition, I am well-versed in databases and APIs, including GraphQL
-        and Firestore, which has enabled me to create dynamic and data-driven
-        applications. I am confident in my ability to implement and manage
-        complex database structures, ensuring that my applications are fast and
-        reliable.
+        In addition, I am well-versed in databases both SQL and NoSQL, as well
+        as APIs including REST and GraphQL. I am confident in my ability to
+        implement and manage complex database structures, ensuring that my
+        applications are fast and reliable.
       </p>
       <p className="text-lg py-2">
         With a commitment to staying current on the latest advancements in web
