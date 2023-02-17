@@ -5,9 +5,8 @@ import ProjectCard from '@/components/ProjectCard';
 import Education from '@/components/Education';
 import portfolioData from '../data.json';
 import educations from '../educations.json';
-import Contact from '@/components/Contact';
+import ContactCard from '@/components/Contact';
 import WordCloud from '@/components/WordCloud';
-import SkillsDisplay from '@/components/Skills';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -40,8 +39,7 @@ interface PortfolioData {
 }
 
 export default function Home() {
-  const { name, bio, skills, projects, contact } =
-    portfolioData as PortfolioData;
+  const { projects, contact } = portfolioData as PortfolioData;
 
   return (
     <>
@@ -66,7 +64,7 @@ export default function Home() {
           ))}
         </ul>
         <Education educations={educations} />
-        <Contact contact={contact} />
+        <ContactCard contact={contact} />
       </div>
     </>
   );
