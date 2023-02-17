@@ -8,8 +8,7 @@ import educations from '../educations.json';
 import Contact from '@/components/Contact';
 import WordCloud from '@/components/WordCloud';
 import SkillsDisplay from '@/components/Skills';
-import ParallaxHeader from '@/components/ParallaxHeader';
-import ProjectList from '@/components/ProjectsList';
+
 const inter = Inter({ subsets: ['latin'] });
 
 interface Skill {

@@ -28,9 +28,10 @@ const AboutMe: React.FC = () => {
         individual who is passionate about delivering high-quality results.
       </p>
       <p className="text-lg py-2">
-        If you're looking for a web developer who is experienced, knowledgeable,
-        and dedicated to delivering outstanding results, I would love the
-        opportunity to bring my expertise and passion to your next project.
+        If you are looking for a web developer who is experienced,
+        knowledgeable, and dedicated to delivering outstanding results, I would
+        love the opportunity to bring my expertise and passion to your next
+        project.
       </p>
     </div>
   );
