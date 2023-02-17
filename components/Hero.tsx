@@ -7,11 +7,10 @@ const Hero: React.FC = () => {
       <div className="container mx-auto px-4 pb-24">
         <h1 className="text-4xl font-medium mb-4"> Welcome</h1>
         <p className="md:text-xl md:font-medium mb-8 ">
-          I'm Emerson, a full stack JavaScript web developer with a strong
-          desire to learn and grow in the industry. I have a passion for
-          creating dynamic and visually appealing web applications and have been
-          working with React and Node to bring my ideas to life. I am highly
-          motivated and committed to continuously improving my skills and
+          Hey, my name is Emerson, a full stack JavaScript web developer. I have
+          a passion for creating dynamic and visually appealing web applications
+          and I love using React and Node.js to bring my ideas to life. I am
+          highly motivated and committed to continuously improving my skills and
           delivering top-notch results. I am eager to work on projects that will
           challenge me and help me further my knowledge and expertise in the
           field.
